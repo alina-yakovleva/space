@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "MuseoSansCyrlW03-300";
+  src: url("//db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.eot");
+  src: url("//db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.svg#MuseoSansCyrlW03-300")
+      format("svg");
+}

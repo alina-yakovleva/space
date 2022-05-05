@@ -1,0 +1,30 @@
+.information {
+  display: flex;
+  flex-direction: column;
+  font-family: "Museo Sans Cyrl";
+  text-align: center;
+}
+.information-block {
+  display: flex;
+}
+.information-text {
+  color: white;
+  font-size: 23px;
+  width: 139px;
+  height: 115px;
+  opacity: 0.4;
+  padding: 5px;
+}
+.number {
+  font-size: 50px;
+  font-weight: bold;
+}
+.lower-information {
+  display: flex;
+  font-size: 23px;
+  opacity: 0.7;
+  justify-content: center;
+}
+.information-text:hover {
+  box-shadow: -5px -6px 11px -6px rgba(255, 255, 255, 0.6) inset;
+}

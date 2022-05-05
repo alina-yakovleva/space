@@ -1,0 +1,29 @@
+.title {
+  font-size: 53px;
+  color: transparent;
+  font-family: "Museo Sans Cyrl";
+  background-clip: text;
+  background-image: linear-gradient(to right, white, #e84a0d);
+}
+.title-1 {
+  text-transform: uppercase;
+}
+.title-2 {
+  font-size: 34px;
+  text-transform: lowercase;
+}
+.button {
+  border: 1px solid white;
+  padding: 10px 15px;
+  background: transparent;
+  float: left;
+  background-color: transparent;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Museo Sans Cyrl";
+  margin-top: 63px;
+  opacity: 0.6;
+}
+.button:hover {
+  background-color: #3d3d3d;
+}
