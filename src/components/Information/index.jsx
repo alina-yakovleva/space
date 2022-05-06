@@ -14,8 +14,7 @@ const Information = () => {
       </div>
       <div className="information-block">
         <div className="information-text">
-          календарик за<div className="number">2001</div>
-          <div className="lower-information">в подарок</div>
+          календарик за<div className="number">2001</div>в подарок
         </div>
         <div className="information-text">
           путешествие<div className="number">597</div>

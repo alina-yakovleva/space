@@ -3,28 +3,48 @@
   flex-direction: column;
   font-family: "Museo Sans Cyrl";
   text-align: center;
+  gap: 10px;
 }
 .information-block {
   display: flex;
+  gap: 10px;
 }
 .information-text {
   color: white;
   font-size: 23px;
-  width: 139px;
-  height: 115px;
-  opacity: 0.4;
+  min-width: 139px;
+  min-height: 115px;
+  opacity: 0.6;
   padding: 5px;
+  cursor: pointer;
 }
 .number {
   font-size: 50px;
   font-weight: bold;
+  opacity: 1;
 }
-.lower-information {
-  display: flex;
-  font-size: 23px;
-  opacity: 0.7;
-  justify-content: center;
-}
+
 .information-text:hover {
-  box-shadow: -5px -6px 11px -6px rgba(255, 255, 255, 0.6) inset;
+  background: radial-gradient(
+    at top left,
+    transparent 70%,
+    rgba(255, 255, 255, 1)
+  );
+}
+
+@media (max-width: 1073px) {
+  .information-text {
+    font-size: 30px;
+  }
+  .number {
+    font-size: 78px;
+  }
+}
+@media (max-width: 337px) {
+  .information-text {
+    font-size: 20px;
+  }
+  .number {
+    font-size: 50px;
+  }
 }

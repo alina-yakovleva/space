@@ -1,14 +1,16 @@
 .header {
   display: flex;
-  gap: 174px;
+  align-items: flex-start;
+  justify-content: space-between;
   margin-bottom: 162px;
-  padding: 0 5px;
+
+  flex-wrap: wrap;
 }
 .logo {
   background: url(../../img/logo.png) no-repeat;
   background-size: contain;
-  width: 314px;
-  height: 100px;
+  min-width: 315px;
+  min-height: 90px;
 }
 .list {
   display: flex;
@@ -19,15 +21,53 @@
   font-family: "MuseoSansCyrlW03-300";
   font-size: 16px;
   line-height: 22px;
+  padding-top: 12px;
 }
 .list li {
-  width: 110px;
-  height: 23px;
+  min-width: 110px;
+  min-height: 23px;
   text-align: center;
 }
 .list li:hover {
-  text-decoration: underline;
   background-color: #3d3d3d;
   cursor: pointer;
-  box-shadow: -5px -6px 11px -6px rgba(255, 255, 255, 0.6) inset;
+  border-bottom: 1px solid white;
+  opacity: 0.7;
+}
+
+@media (max-width: 1185px) {
+  .header {
+    gap: 0;
+  }
+}
+
+@media (max-width: 913px) {
+  .header {
+    display: block;
+    margin-bottom: 110px;
+  }
+}
+@media (max-width: 909px) {
+  .header {
+    margin-bottom: 169px;
+  }
+}
+@media (max-width: 747px) {
+  .header {
+    gap: 160px;
+    display: flex;
+    flex-direction: column;
+  }
+  .list {
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 40px;
+  }
+}
+@media (max-width: 363px) {
+  .logo {
+    width: 100px;
+    height: 40px;
+  }
 }
